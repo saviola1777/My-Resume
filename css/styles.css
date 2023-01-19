@@ -3,7 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+a:hover{
+    color: #ff6b08;
+    font-weight: 700;
+    font-size: 18px;
+}
 body {
     background: #f5f7fa;
     padding-top: 40px;
