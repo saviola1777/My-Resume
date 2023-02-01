@@ -74,7 +74,7 @@ ol {
 .contacts-item{
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 30px;
     color: #ff6b08;
     margin-left: 15px;
     list-style-type: disclosure-closed;
@@ -85,14 +85,14 @@ ol {
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 30px;
     color: #4e4e4e;
     
 }
 .contacts-span{
     font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 30px;
     color: #4e4e4e; 
 }
 
@@ -100,7 +100,7 @@ ol {
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 30px;
     color: #4e4e4e;
 }
 
@@ -114,7 +114,7 @@ ol {
 .tech-skills-item {
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 30px;
     margin-left: 15px;
     color: #ff6b08;
     list-style-type: disclosure-closed;
@@ -138,7 +138,9 @@ ol {
     line-height: 24px;
     margin: 20px 0;
     text-align: center;
-    color: black;
+    -webkit-text-stroke-width: thin;
+    color: #8d8d8d;
+    text-decoration: underline;
 }
 
 .name {
@@ -152,8 +154,11 @@ ol {
     font-weight: 700;
     line-height: 24px;
     margin-top: 24px;
-    color: #8d8d8d;
+    color: #000000;
     text-align: justify;
+    font-family: revert;
+    border-style: ridge;
+    padding: 0 8px;
 }
 
 .info-container {
@@ -165,6 +170,9 @@ ol {
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 20px;
+    -webkit-text-stroke-width: thin;
+    color: #8d8d8d;
+    text-decoration: underline;
 }
 
 .projest-container {
@@ -211,7 +219,10 @@ ol {
     line-height: 24px;
     margin: 10px 0;
     font-weight: 700;
-    color: #8d8d8d;
+    color: #000000;
+    font-family: revert;
+    border-style: ridge;
+    padding: 0 8px
 }
 
 .profession-company {
@@ -221,8 +232,9 @@ ol {
 .profession-time {
     color: #585858;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 24px;
+    font-family: cursive;
 }
 
 .profession-divider {
@@ -230,11 +242,12 @@ ol {
 }
 
 .profession-duties-item {
-    color: #8d8d8d;
+    color: #000000;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     border-bottom-style: inset;
+    /* font-family: revert; */
 }
 
 .education-container {
@@ -282,6 +295,7 @@ ol {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+    font-family: revert;
 }
 
 
