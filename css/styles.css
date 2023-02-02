@@ -173,6 +173,7 @@ ol {
     -webkit-text-stroke-width: thin;
     color: #8d8d8d;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .projest-container {
